@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"/>
+	<title>Introduction to Programming Nanodegree May 2015"</title>
+	<link rel ="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class ="section">
+	<h1>INTRODUCTION TO PROGRAMMING NANODEGREE MAY 2015 COHORT</h1>
+</div>
+<div class="container">
+	<div class="item">
+		<h2>Get started</h2>
+		<p>
+			<a href = "https://docs.google.com/a/knowlabs.com/document/d/1W-GV7Y0TNIPLox1UJDgFxvioq6Y0dYitQ-1_SIJsw0A/pub?embedded=true">
+			Student Handbook & Syllabus</a>
+		</p>
+		<p>General information about nanodegree</p>
+		<p>Will be able to choose path at the end </p>
+		<p><b>Thinking like a programmer:</b></p>
+		<ul>
+			<li>Procedural thinking</li>
+			<li>Abstract thinking</li>
+			<li>Systematic debugging</li>
+			<li>Technological empathy</li>
+			<li>Systems thinking</li>
+		</ul>
+		<p><a href = "http://learn-2-code.appspot.com/"> Andy's web page</a></p>
+	</div>
+	<div class="item">
+		<img src="http://www.wallpaperup.com/uploads/wallpapers/2014/04/22/341284/big_thumb_579264430b9ab9239f28fdb6d506c110.jpg" alt="text">
+
+		<!-- How do I get this image to center in the flex box itself?? -->
+	</div>
+</div>
+<div class="section">
+	<h2>The Basics of the Web and HTML (Steve Huffman/Reddit)</h2>
+	<p>Two units:</p>
+	<ol>
+		<li>Develop technological empathy </li>
+		<li>Create an HTML document </li>
+	</ol>
+	<p><em><b>Unit 1: Basics of the web</b></em></p>
+	<p>HTML: HyperText Markup Language (glue), main type of document on the web</p>
+	<p>Anything can exist on the web</p>
+	<p>
+		Major pieces: your computer + browser, internet, servers (computers optimized for hosting files). 
+		Communicate with http protocol.
+	</p>
+	<p>HTML:</p>
+	<ul>
+		<li>Text content</li>
+		<li>Markup (what it looks like) </li>
+		<li>Element: &lt;name> <em>contents</em> &lt;/name></li>
+		<li>References to other documents</li>
+		<li>Links</li>
+	</ul>
+	<p>Markup:</p>
+	<ul>
+		<li>&lt;b>: bold </li>
+		<li>&lt;em>: emphasis (italics) </li>
+		<li>Close tags!</li>
+	</ul>
+	<p>
+		HTML attribute: value inside tag<br>
+		&lt;a href =  &quot;www&quot;...> for links<br>
+		&lt;img src= &quot;url &quot; alt= &quot;text &quot;> image source, alt is required (broken requests, blind people), 
+		no closing tag needed (void tag)
+	</p>
+	<p class="quote">
+		*Understand the big ideas and don&#8217;t sweat the details: Google is your friend.*
+	</p>
+	<p>Whitespace:</p> 
+	<ul>
+		<li>Use &lt;br> tag (void tag) for a line break, inline element </li>
+		<li>Or use a &lt;p> tag (content tag), block element, invisible &quot;box&quot; around text. </li>
+		<li>&quot;\n&quot; is used in other languages</li>
+	</ul>
+	<p>Span/div:</p>
+	<ul>
+		<li>Used to contain content, which can be manipulated</li>
+		<li>Span = inline, div = block</li>
+		<li>&quot;class&quot; is used in CSS</li>
+	</ul>
+	<p>Structure of an HTML document:</p>
+	<ul>
+		<li>Doctype</li>
+		<li>Html</li>
+		<li>Head (metadata, JS, CSS, Title (appears in browser tab))</li>
+		<li>Body (contents of doc) </li>
+	</ul>
+	<p>Take-away points:</p>
+	<ol>	
+		<li>What is a web page (text doc in HTML language, read by browser)</li>
+		<li>How coding works (code written by programmer, interpreted by computer)</li>
+		<li>Computers are stupid (write so the computer will understand you)</li>
+		<li>Programmers can&#8217;t remember everything</li>
+		<li>Basic HTML vocab</li>
+	</ol>
+</div>
+<div class="section">
+	<h2>Project Stage 0: Getting Started with HTML</h2>
+	<p>Make your first simple web page</p>
+	<p>Convert notes into HTML and submit for feedback</p>
+</div>
+<div class="section">
+	<h2>Keys to Success: Nanodegree Orientation</h2>
+	<p>Finding out if you&#8217;ve got what it takes</p>
+	<p>Explanation on projects, Discussion forum, Cohorts, Office hours</p>
+	<p>Get access to Cohort forum and introduce yourself</p>
+</div>
+<div class="section">
+	<h2>How Learning to Code Works</h2>
+	<p>Different stages of learning</p>
+	<p>Nanodegree: combination of awareness and ability</p>
+	<p>What to do when you see code you don&#8217;t understand</p>
+</div>
+<div class="section">
+	<h2>Stage 1 Intro: Make Your Web Page</h2>
+	<p>Going through HTML and CSS on Andy&#8217;s page</p>
+	<p>Make your own website </p>
+	<p>Take notes for 1.1-.3 and convert into HTML</p>
+	<p>There are two work sessions in Stage 1, which should take about a week to complete</p>
+</div>
+<!-- Stage 1 begins here, put in one containing div box, I might do something with this later -->
+<div>
+	<div class="section">
+		<h2>1.1 The Basics of the Web and HTML</h2>
+		<p>Repeat of session with Steve Huffman, see above.</p>
+	</div>
+	<div class="section">
+		<h2>1.2 Creating a Structured Document</h2>
+		<p>
+			HTML files are structured trees, branching from the initial &lt;html> tag 
+			to smaller tags like &lt;p> and then &lt;a>. Webpages are made out of many boxes.
+			Classes are labels for your &quot;box&quot;, and are assigned inside tags
+		</p>
+		<p>
+			You can look at a page&#8217;s structure by going over it in <b>Google Chrome dev tools</b>.
+			You can look at the style of each element by clicking it in the tool, 
+			the style properties will show in a separate tab.<br>
+			Right clicking on element and selecting &quot;inspect element&quot; goes straight to that element in dev tools.
+			You can change the style of the page directly in the tool, but refresh and everything resets.
+		</p>
+		<p>
+			HTML: language of the web, has a syntax and rules. 
+			Tags are like words, and can have attributes (e.g. class). This controls structure.<br>
+			DOM (Document Object Model): creates a tree from HTML tags (elements)<br>
+			CSS: language of style, also has a syntax and rules.
+		</p>
+		<p>Download <a href = "http://www.sublimetext.com/">Sublime</a>, a text editor.</p>
+	</div>
+	<div class="section">
+		<h2>Stage 1: Work Session 1</h2>
+		<p>
+			In these sessions, you&#8217;ll work on your website<br><br>
+			Part 1: Review<br>
+			Part 2: Improve site<br>
+		</p>
+		<p class="quote">*With reflection and practice you&#8217;ll start to think and look like an expert.*</p>
+		<p>
+			Add new notes to HTML and open in editor <em>(I used Notepad++, 
+			will download Sublime later on my personal computer)</em>
+		</p>
+	</div>
+	<div class="section">
+		<h2>1.3 Adding CSS Style and HTML Structure</h2>
+		<p>
+			Don&#8217;t repeat yourself! It is critical to avoid repeating your code to minimize mistakes and keep things consistent. 
+			You can do this with CSS (Cascading Style Sheets).
+		</p>
+		<p>
+			CSS code is often written in a separate file, sometimes multiple. You need to add a link in HTML file to CSS file to connect them. 
+			You can put CSS in the &lt;head> tag in an html file, or you can create a separate CSS file. 
+			Sometimes you may see style written inline with the HTML code, but this is not recommended!
+		</p>
+		<p>
+			By linking &quot;class =...&quot; (within tags) in the html file to a selector 
+			to a class in the css file, you can assign style to elements.
+			Nomenclature:<br><br>
+			
+			.selector {<br></p>
+			<p class="indent">
+				property: value;<br>
+				(declaration) <br><br>
+			}
+			</p>
+		<p>In CSS, the most specific rule applies (<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">inheritance</a>)</p>
+		<p>Handy Mozilla <a href ="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a></p>
+		<p>
+			You can insert code comments as follows:
+			&lt;!--   --> in HTML, 
+			/*  */ in CSS
+		</p>
+		<div>
+			<h3>From Office Hours:</h3>
+			<p>
+				You can use &quot;id&quot; in tags to uniquely assign attributes to one specific element. 
+				This is written as:<em> &lt;div id="welcome"> </em>and can be used for CSS purposes or as a link anchor:
+				<em> &lt;a href="#welcome">Welcome&lt;/a></em>
+				This is similar to class elements, but you should strive to group elements in a class and use ids sparingly.
+			</p>
+			<p>Box Model:</p>
+			<ul>
+				<li>Content</li>
+				<li>Padding (space inside the box that protect the content)</li>
+				<li>Border</li>
+				<li>Margin</li>
+			</ul>
+			<p>You can set sizes as pixels but it is often recommended to use percentages, as not all browser windows are the same size.</p>
+			<p>
+				Using &quot;box-sizing: border-box&quot; in CSS is an easy way of calculating box size, but margin is not included. 
+				This was developed recently so you need to add browser specific prefixes.
+			</p>
+			<p>To make div boxes align next to each other use <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox layout</a>.</p>	
+			<p>
+				Check your <a href="http://validator.w3.org/#validate_by_input">HTML</a> and 
+				<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a> code to see if it&#8217;s correct.
+			</p>
+		</div>
+	</div>
+	<div class="section">
+		<h2>Stage 1: Work Session 2</h2>
+		<p>Add new notes to your page, and use CSS to style it. </p>
+	</div>
+</div>
+HS 2015
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
